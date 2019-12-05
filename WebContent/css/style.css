@@ -1,0 +1,246 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+body{
+	background: blue;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	width: 90%;
+	margin: 10px auto 0;
+	color: white;
+}
+h2{
+	font-size: 35px;
+	color: red;
+	margin: 0 auto;
+	text-align: center;
+	}
+h3{
+	font-size:25px;
+}
+
+form{
+	border: 1px solid white;
+	margin: 20px auto 0;
+	text-align: center;
+	width: 30%;
+	padding: 10px 0;
+}
+
+form input[type="text"],form input[type="password"]{
+	width: 90%;
+	margin: 5px auto 0;
+}
+
+form input[type="submit"]{
+	padding: 5px 20px;
+	display: inline-block;
+	margin: 15px auto 0;
+}
+
+form input[type="submit"]:hover{
+	background: red;
+	color: blue;
+	transition: all 0.3s ease-in-out;
+}
+
+/*login-page*/
+#login-page p{
+	margin: 10px auto;
+}
+#login-page input[type="text"],#login-page input[type="password"]{
+	font-size: 18px;
+}
+
+/*index page*/
+#index-page .upper-container{
+	display: flex;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto 0;
+    justify-content: space-between;
+}
+
+#index-page .upper-container a{
+	color: white;
+	display: block;
+	margin-right: 135px;
+}
+
+#index-page .upper-container form{
+	border: none;
+	margin: unset;
+	text-align: center;
+	width: unset;
+	padding: 10px 0;
+}
+
+#index-page .upper-container form input[type="submit"]{
+	background: none;
+	color: white;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+#index-page .upper-container h3 span{
+	display: inline-block;
+	font-size: 25px;
+	color:red;
+}
+
+#index-page table{
+	padding: 2px;
+	margin: 40px auto 0;
+}
+
+#index-page table th{
+	font-size: 12px;
+	text-align: center;
+}
+
+#index-page table td{
+	color: white;
+	text-align: center;
+}
+
+#index-page table td a{
+	color: red;
+	font-size: 14px;
+	display: block;
+	margin: 5px 5px;
+}
+
+/*edit page*/
+#edit-page .upper-container{
+	display: flex;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto 0;
+    justify-content: space-between;
+}
+
+#edit-page .upper-container form{
+	border: none;
+	margin: unset;
+	text-align: center;
+	width: unset;
+	padding: 10px 0;
+}
+
+#edit-page .upper-container a{
+	color: white;
+	display: block;
+	margin-right: 135px;
+}
+
+#edit-page .upper-container form input[type="submit"]{
+	background: none;
+	color: white;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+#edit-page .upper-container h3 span{
+	display: inline-block;
+	font-size: 25px;
+	color:red;
+}
+
+#edit-page form{
+	width: 80%;
+	text-align: left;
+	padding: 20px;
+}
+
+#edit-page form p{
+	margin: 10px 0;
+	color: white;
+}
+
+#edit-page form p input[type="text"]{
+	margin-left: 5px;
+	width: 50%;
+}
+#edit-page form p select{
+	margin-left: 5px;
+}
+
+
+/*new-page*/
+#new-page .upper-container{
+	display: flex;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto 0;
+    justify-content: space-between;
+}
+
+#new-page .upper-container form{
+	border: none;
+	margin: unset;
+	text-align: center;
+	width: unset;
+	padding: 10px 0;
+}
+
+#new-page .upper-container a{
+	color: white;
+	display: block;
+	margin-right: 135px;
+}
+
+#new-page .upper-container form input[type="submit"]{
+	background: none;
+	color: white;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+#new-page .upper-container h3 span{
+	display: inline-block;
+	font-size: 25px;
+	color:red;
+}
+
+#new-page form{
+	width: 80%;
+	text-align: left;
+	padding: 20px;
+}
+
+#new-page form p{
+	margin: 10px 0;
+	color: white;
+	font-size: 18px;
+}
+
+#edit-page form p input[type="text"]{
+	margin-left: 5px;
+	width: 50%;
+}
+#edit-page form p select{
+	margin-left: 5px;
+}
+
+
+/*footer*/
+footer{
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+}
